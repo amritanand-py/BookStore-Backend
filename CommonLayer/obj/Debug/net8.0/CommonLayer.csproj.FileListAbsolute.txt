@@ -10,3 +10,4 @@ D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.dll
 D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
 D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
 D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.csproj.AssemblyReference.cache

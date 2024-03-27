@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kSa/plKtNIt2cM7umDIKm84eb781H1rJ1y4GjsgFeIwJCjsr+UIptPlPHfeMqiG4bQqf+Mfp+yyPW5WnAzbc2g==",
+  "dgSpecHash": "3nGaM/VSb6Cp0VCTAv04GaYDdKWOd+moWU+XRdRX8tu6IcZYuT3YPXBCp3Tjv8eaXV/WXvRqIAalOaoJtwYXdQ==",
   "success": true,
   "projectFilePath": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\anand\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

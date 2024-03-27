@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sa931up4K2hOaNdHTuvyMjomPQxm7malhfEryo0fTwGDclrO7EwCKQo+KkVeycxOxm71DQrHWpGigHazgUyw+w==",
+  "dgSpecHash": "h5C/Ny+sWOrxQgWKumoG6ptsidHINlLTRfFoTdsRo/8oDSZRCyjwA85Z1mSQwaK6tAt5gEcTJOWsM6qjO0hxOQ==",
   "success": true,
   "projectFilePath": "D:\\Github\\BookStore-Backend\\RepoLayer\\RepoLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anand\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\anand\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

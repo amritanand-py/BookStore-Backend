@@ -22,5 +22,10 @@ namespace ManagerLayer.Services
         {
             return UserManagerObj.registration(model);
         }
+
+        public string UserLogin(LoginReqModel model)
+        {
+            return UserManagerObj.UserLogin(model);
+        }
     }
 }

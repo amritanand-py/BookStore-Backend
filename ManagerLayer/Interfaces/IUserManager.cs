@@ -11,5 +11,6 @@ namespace ManagerLayer.Interfaces
     public interface IUserManager
     {
         public UserEntity registration(RegisterReqModel model);
+        public string UserLogin(LoginReqModel model);
     }
 }

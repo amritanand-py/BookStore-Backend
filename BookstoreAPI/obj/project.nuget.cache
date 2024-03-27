@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MYQjxWYg9HEQJ/6W28ytIWuSXChNnpM1wnRydVMRW1mWoVOcFZFzbFAPKdFNhjkXhZ8e/OiU02KP9nWnPWFvng==",
+  "dgSpecHash": "ymY2moiZw3gTHef3T81BpafFEgb+Xh+fzPNI3E5XBuBafS4Wqbb72l8EISBmlqJ1z+yBRJgdxWYP8LFkLFs0OA==",
   "success": true,
   "projectFilePath": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\BookstoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anand\\.nuget\\packages\\automatonymous\\4.2.1\\automatonymous.4.2.1.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\anand\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\greenpipes\\3.0.1\\greenpipes.3.0.1.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\masstransit\\6.2.5\\masstransit.6.2.5.nupkg.sha512",

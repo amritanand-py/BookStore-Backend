@@ -35,6 +35,19 @@ namespace BookstoreAPI.Controllers
         }
 
 
+        [HttpPost]
+        [Route("Login")]
+        public ActionResult UserLogin(LoginReqModel model)
+        {
+            var Response = usermanager.UserLogin(model);
+            if (Response != null)
+            {
+                return Ok(new BookstoreResponse<string> { Success = true, Message = "login Successful", Data = Response });
+            }
+            return BadRequest(new BookstoreResponse<bool> { Success = true, Message = "Login Unsuccessful", Data = false });
+        }
+
+
 
 
 
