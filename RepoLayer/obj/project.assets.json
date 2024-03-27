@@ -1502,6 +1502,16 @@
             "rid": "win"
           }
         }
+      },
+      "CommonLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CommonLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommonLayer.dll": {}
+        }
       }
     }
   },
@@ -4096,10 +4106,16 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CommonLayer/1.0.0": {
+      "type": "project",
+      "path": "../CommonLayer/CommonLayer.csproj",
+      "msbuildProject": "../CommonLayer/CommonLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CommonLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.3",
@@ -4139,7 +4155,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
