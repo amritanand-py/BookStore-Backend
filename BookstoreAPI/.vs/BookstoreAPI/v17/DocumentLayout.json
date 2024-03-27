@@ -1,12 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ManagerLayer\\Class1.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Class1.cs",
+              "RelativeToolTip": "..\\ManagerLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:12:26.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Class1.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Class1.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:12:03.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Class1.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Class1.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:11:23.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
