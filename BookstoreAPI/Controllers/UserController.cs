@@ -33,5 +33,12 @@ namespace BookstoreAPI.Controllers
             }
             return BadRequest(new BookstoreResponse<UserEntity> { Success = true, Message = "Regestration Unsuccessful", Data = null });
         }
+
+
+
+
+
+
+
     }
 }   
