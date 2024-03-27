@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dqF+sZBGpWFmaZQWXPpzrwruB+lgHUIXaytCP5PwMtbtMSiFJCFnT1yU6cOuiZVhftr+/vkPISUY0V5fJoFF0A==",
+  "dgSpecHash": "UJ818QhbOyKuLKf1y17l9CWWHExOmBAYyg8X/2tmaBMsYZFHj3EyEccs5APiZocktpWnxJMY6wiKBTmlhcllWA==",
   "success": true,
   "projectFilePath": "D:\\Github\\BookStore-Backend\\ManagerLayer\\ManagerLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anand\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\anand\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.5\\microsoft.data.sqlclient.5.1.5.nupkg.sha512",
