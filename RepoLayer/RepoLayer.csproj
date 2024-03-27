@@ -20,9 +20,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Entity\" />
-    <Folder Include="Context\" />
-  </ItemGroup>
-
 </Project>

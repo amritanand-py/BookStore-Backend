@@ -1,0 +1,12 @@
+D:\Github\BookStore-Backend\CommonLayer\bin\Debug\net8.0\CommonLayer.deps.json
+D:\Github\BookStore-Backend\CommonLayer\bin\Debug\net8.0\CommonLayer.dll
+D:\Github\BookStore-Backend\CommonLayer\bin\Debug\net8.0\CommonLayer.pdb
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfoInputs.cache
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.AssemblyInfo.cs
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.csproj.CoreCompileInputs.cache
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.sourcelink.json
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.dll
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\refint\CommonLayer.dll
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\CommonLayer.pdb
+D:\Github\BookStore-Backend\CommonLayer\obj\Debug\net8.0\ref\CommonLayer.dll
