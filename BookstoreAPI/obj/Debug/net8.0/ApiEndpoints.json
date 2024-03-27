@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "BookstoreAPI.Controllers.UserController",
+    "Method": "UserRegistration",
+    "RelativePath": "api/User/Registration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Request_Model.RegisterReqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

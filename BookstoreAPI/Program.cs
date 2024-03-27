@@ -1,3 +1,12 @@
+
+using ManagerLayer.Interfaces;
+using ManagerLayer.Services;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using RepoLayer.Context;
+using RepoLayer.Interfaces;
+using RepoLayer.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +15,18 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+
+builder.Services.AddDbContext<BookStoreContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
+builder.Services.AddTransient<IUserRepo, UserServices>();
+builder.Services.AddTransient<IUserManager, UserManager>();
+
+
+
+
+
+
 
 var app = builder.Build();
 
