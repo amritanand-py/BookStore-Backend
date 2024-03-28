@@ -57,6 +57,7 @@ builder.Services.AddMassTransit(x =>
         });
     }));
 });
+builder.Services.AddMassTransitHostedService();
 
 
 

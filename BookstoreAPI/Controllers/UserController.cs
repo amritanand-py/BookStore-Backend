@@ -1,5 +1,7 @@
 ﻿using CommonLayer.Request_Model;
 using CommonLayer.Response_model;
+using CommonLayer.Utility;
+using MassTransit;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RepoLayer.Entity;
@@ -12,13 +14,13 @@ namespace BookstoreAPI.Controllers
     public class UserController : ControllerBase    
     {
         public readonly IUserRepo usermanager;
-        //public readonly IBus bus;
+        public readonly IBus bus;
 
 
-        public UserController(IUserRepo usermanager)
+        public UserController(IUserRepo usermanager, IBus bus)
         {
             this.usermanager = usermanager;
-            /*this.bus = bus;*/
+            this.bus = bus;
         }
 
         [HttpPost]
@@ -47,7 +49,33 @@ namespace BookstoreAPI.Controllers
             return BadRequest(new BookstoreResponse<bool> { Success = true, Message = "Login Unsuccessful", Data = false });
         }
 
+        [HttpPost]
+        [Route("ForgetPassword")]
 
+        public async Task<ActionResult> ForgetPasswordAPI(string email)
+        {
+            try
+            {
+                if (usermanager.checker(email))
+                {
+                    send send = new send();
+                    ForgetPassModel model = usermanager.ForgetPassword(email);
+                    string str = send.SendMail(model.Email, model.Token);
+                    Uri uri = new Uri("rabbitmq://localhost/FundooNotesEmailQueue");
+                    var endpoint = await bus.GetSendEndpoint(uri);
+                    return Ok(new BookstoreResponse<string> { Success = true, Message = "Forget password successful", Data = model.Token });
+                }
+                else
+                {
+                    throw new Exception("Failed to send email");
+                }
+            }
+            catch (Exception er)
+            {
+                return BadRequest(new BookstoreResponse<string> { Success = true, Message = er.Message, Data = null });
+            }
+
+        }
 
 
 
