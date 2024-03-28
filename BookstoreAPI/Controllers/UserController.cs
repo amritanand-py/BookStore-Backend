@@ -2,6 +2,7 @@
 using CommonLayer.Response_model;
 using CommonLayer.Utility;
 using MassTransit;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RepoLayer.Entity;
@@ -22,7 +23,7 @@ namespace BookstoreAPI.Controllers
             this.usermanager = usermanager;
             this.bus = bus;
         }
-
+        /*     --------------------------------------------------------------------------------------*/
         [HttpPost]
         [Route("Registration")]
         public ActionResult UserRegistration(RegisterReqModel model)
@@ -35,7 +36,7 @@ namespace BookstoreAPI.Controllers
             }
             return BadRequest(new BookstoreResponse<UserEntity> { Success = true, Message = "Regestration Unsuccessful", Data = null });
         }
-
+        /*     --------------------------------------------------------------------------------------*/
 
         [HttpPost]
         [Route("Login")]
@@ -48,10 +49,9 @@ namespace BookstoreAPI.Controllers
             }
             return BadRequest(new BookstoreResponse<bool> { Success = true, Message = "Login Unsuccessful", Data = false });
         }
-
+        /*     --------------------------------------------------------------------------------------*/
         [HttpPost]
         [Route("ForgetPassword")]
-
         public async Task<ActionResult> ForgetPasswordAPI(string email)
         {
             try
@@ -76,10 +76,37 @@ namespace BookstoreAPI.Controllers
             }
 
         }
+        /*     --------------------------------------------------------------------------------------*/
 
+        [HttpPost]
+        [Authorize]
+        [Route("ResetPassword")]
 
+        public ActionResult ResetPassword(ResetPasswordModel model)
+        {
+            try
+            {
+                string email = User.FindFirst("Email").Value;
+                if (usermanager.ResetPassword(email, model))
+                {
+                    return Ok(new BookstoreResponse<bool> { Success = true, Message = "Password Reset successful", Data = true });
 
+                }
+                return BadRequest(new BookstoreResponse<bool> { Success = false, Message = "Failed to reset", Data = false }); ;
 
+            }
+
+            catch (Exception er)
+            {
+                return BadRequest(new BookstoreResponse<bool> { Success = false, Message = er.Message, Data = false });
+            }
+
+        }
+
+        /*     --------------------------------------------------------------------------------------*/
 
     }
+
+
+
 }   

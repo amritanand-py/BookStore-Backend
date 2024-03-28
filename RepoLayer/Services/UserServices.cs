@@ -105,6 +105,17 @@ namespace RepoLayer.Services
             return false;
         }
         /*     --------------------------------------------------------------------------------------*/
+        public bool ResetPassword(string Email, ResetPasswordModel reset)
+        {
+            UserEntity User = BookStoreContext.UserTable.FirstOrDefault(x => x.Email == Email);
 
+            if (User != null)
+            {
+                User.Password = EncryptDecryptClass.EncryptionPass(reset.Password);
+                BookStoreContext.SaveChanges();
+                return true;
+            }
+            return false;
+        }
     }
 }
