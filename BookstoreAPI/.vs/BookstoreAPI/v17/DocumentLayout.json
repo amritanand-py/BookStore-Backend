@@ -76,7 +76,7 @@
               "RelativeDocumentMoniker": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
               "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
               "RelativeToolTip": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-27T09:57:10.558Z",
               "EditorCaption": ""
@@ -104,8 +104,7 @@
               "RelativeToolTip": "..\\RepoLayer\\Interfaces\\IUserRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:14:29.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:14:29.998Z"
             },
             {
               "$type": "Document",
@@ -117,8 +116,7 @@
               "RelativeToolTip": "..\\ManagerLayer\\Services\\UserManager.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:35:45.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:35:45.997Z"
             },
             {
               "$type": "Document",
@@ -130,8 +128,7 @@
               "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:36:22.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:36:22.193Z"
             },
             {
               "$type": "Document",
@@ -143,8 +140,7 @@
               "RelativeToolTip": "Controllers\\UserController.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAiwDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:34:23.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:34:23.312Z"
             },
             {
               "$type": "Document",
@@ -156,8 +152,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-27T06:38:46.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:38:46.608Z"
             },
             {
               "$type": "Document",
@@ -169,8 +164,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:07:48.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:07:48.863Z"
             },
             {
               "$type": "Document",
@@ -182,8 +176,7 @@
               "RelativeToolTip": "..\\CommonLayer\\Request Model\\LoginReqModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:53:59.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T09:53:59.196Z"
             },
             {
               "$type": "Document",
@@ -195,8 +188,7 @@
               "RelativeToolTip": "..\\RepoLayer\\Context\\BookStoreContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:30:37.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:30:37.777Z"
             },
             {
               "$type": "Document",
@@ -208,8 +200,7 @@
               "RelativeToolTip": "..\\RepoLayer\\RepoLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T07:12:54.655Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:12:54.655Z"
             },
             {
               "$type": "Document",
@@ -221,8 +212,7 @@
               "RelativeToolTip": "..\\RepoLayer\\Entity\\UserEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:26:56.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:26:56.633Z"
             },
             {
               "$type": "Document",
@@ -234,8 +224,7 @@
               "RelativeToolTip": "..\\CommonLayer\\Request Model\\RegisterReqModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:08:15.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:08:15.128Z"
             },
             {
               "$type": "Document",
@@ -247,8 +236,7 @@
               "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:53:04.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:53:04.507Z"
             },
             {
               "$type": "Document",
@@ -260,8 +248,7 @@
               "RelativeToolTip": "..\\CommonLayer\\CommonLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T07:05:16.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T07:05:16.207Z"
             },
             {
               "$type": "Document",
@@ -273,8 +260,7 @@
               "RelativeToolTip": "..\\RepoLayer\\Entity\\BookEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:35:47.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:35:47.262Z"
             }
           ]
         }
