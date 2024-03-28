@@ -12,5 +12,7 @@ namespace ManagerLayer.Interfaces
     {
         public UserEntity registration(RegisterReqModel model);
         public string UserLogin(LoginReqModel model);
+        public ForgetPassModel ForgetPassword(string Email);
+        /*public bool checker(string Email);*/
     }
 }
