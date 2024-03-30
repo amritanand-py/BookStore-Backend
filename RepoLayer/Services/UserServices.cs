@@ -7,6 +7,7 @@ using RepoLayer.Entity;
 using RepoLayer.Interfaces;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
@@ -41,14 +42,15 @@ namespace RepoLayer.Services
         }
 
         /*     --------------------------------------------------------------------------------------*/
-        private string genrateToken(string email, int userID)
+        private string genrateToken(string email, int userID,string role)
         {
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]));
             var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
             var claims = new[]
             {
                 new Claim("Email",email),
-                new Claim("UserId", userID.ToString())
+                new Claim("UserId", userID.ToString()),
+                new Claim("Role", role)
             };
             var token = new JwtSecurityToken(
                 config["Jwt:Issuer"],
@@ -77,7 +79,7 @@ namespace RepoLayer.Services
                 // tempvar[0].Password == model.Password
                 if (EncryptDecryptClass.MatchPass(tempvar.Password, model.Password))
                 {
-                    var token = genrateToken(tempvar.Email, tempvar.UserId);
+                    var token = genrateToken(tempvar.Email, tempvar.UserId, tempvar.role);
                     return token;
                 }
 
@@ -92,7 +94,7 @@ namespace RepoLayer.Services
             ForgetPassModel forgetPassword = new ForgetPassModel();
             forgetPassword.Email = User.Email;
             forgetPassword.userID = User.UserId;
-            forgetPassword.Token = genrateToken(User.Email, User.UserId);
+            forgetPassword.Token = genrateToken(User.Email, User.UserId, User.role);
             return forgetPassword;
         }
         /*     --------------------------------------------------------------------------------------*/
