@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "BookstoreAPI.Controllers.BookController",
+    "Method": "GetBooks",
+    "RelativePath": "api/Book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookstoreAPI.Controllers.BookController",
     "Method": "AddBook",
     "RelativePath": "api/Book/Create",
     "HttpMethod": "POST",
