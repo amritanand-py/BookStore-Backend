@@ -11,6 +11,7 @@ namespace RepoLayer.Interfaces
     public interface IBookRepo
     {
         public BookEntity BookAddition(BookCreationReq model);
+        public BookEntity GetByID(getbyID model);
 
     }
 }

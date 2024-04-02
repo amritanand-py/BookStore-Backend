@@ -37,5 +37,18 @@ namespace RepoLayer.Services
             BookStoreContext.SaveChanges();
             return newBook;
         }
+
+        /*     --------------------------------------------------------------------------------------*/
+        public BookEntity GetByID(getbyID model)
+        {
+            var book = BookStoreContext.BooksTable.FirstOrDefault(x => x.BookId == model.BookId);
+            if (book == null)
+            {
+                    throw new Exception("note not avail");
+                
+            }
+            return book;
+           
+        }
     }
 }
