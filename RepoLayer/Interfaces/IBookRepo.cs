@@ -12,6 +12,7 @@ namespace RepoLayer.Interfaces
     {
         public BookEntity BookAddition(BookCreationReq model);
         public BookEntity GetByID(getbyID model);
+        public IEnumerable<BookEntity> GetBooks(int page, int pageSize);
 
     }
 }

@@ -22,5 +22,9 @@ namespace ManagerLayer.Services
         {
             return BookmanagerObj.GetByID(model);
         }
+        public IEnumerable<BookEntity> GetBooks(int page, int pageSize)
+        {
+            return BookmanagerObj.GetBooks(page, pageSize);
+        }
     }
 }

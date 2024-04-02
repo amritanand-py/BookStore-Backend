@@ -50,5 +50,17 @@ namespace RepoLayer.Services
             return book;
            
         }
+        /*     --------------------------------------------------------------------------------------*/
+
+
+        public IEnumerable<BookEntity> GetBooks(int page, int pageSize)
+        {
+            return BookStoreContext.BooksTable
+                                   .Skip((page - 1) * pageSize)
+                                   .Take(pageSize)
+                                   .ToList();
+        }
+        /*     --------------------------------------------------------------------------------------*/
+
     }
 }

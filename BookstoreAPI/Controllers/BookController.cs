@@ -55,6 +55,20 @@ namespace BookstoreAPI.Controllers
         }
 
         /*     --------------------------------------------------------------------------------------*/
+        [HttpGet]
+        public IActionResult GetBooks(int page = 1, int pageSize = 10)
+        {
+            try
+            {
+                var paginatedBooks = bookmanager.GetBooks(page, pageSize);
+                return Ok(paginatedBooks);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
+        /*     --------------------------------------------------------------------------------------*/
 
     }
 }
