@@ -39,9 +39,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookStoreContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 builder.Services.AddTransient<IUserRepo, UserServices>();
 builder.Services.AddTransient<IUserManager, UserManager>();
+
+
 builder.Services.AddTransient<IBookRepo, BookServices>();
 builder.Services.AddTransient<IBookManager, BookManager>();
 
+
+builder.Services.AddTransient<ICartRepo, CartServices>();
+builder.Services.AddTransient<ICartManager, CartManager>();
 
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
