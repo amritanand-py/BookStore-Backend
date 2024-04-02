@@ -18,6 +18,9 @@ namespace ManagerLayer.Services
         {
             return BookmanagerObj.BookAddition(model);
         }
-
+        public BookEntity GetByID(getbyID model)
+        {
+            return BookmanagerObj.GetByID(model);
+        }
     }
 }

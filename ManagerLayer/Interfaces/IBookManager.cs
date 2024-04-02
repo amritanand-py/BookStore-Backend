@@ -11,5 +11,6 @@ namespace ManagerLayer.Interfaces
     public interface IBookManager
     {
         public BookEntity BookAddition(BookCreationReq model);
+        public BookEntity GetByID(getbyID model);
     }
 }

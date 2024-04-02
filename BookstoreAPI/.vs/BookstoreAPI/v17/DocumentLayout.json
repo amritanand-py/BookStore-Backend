@@ -3,7 +3,29 @@
   "WorkspaceRootPath": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|d:\\github\\bookstore-backend\\bookstoreapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\getbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\services\\bookservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\interfaces\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\interfaces\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\loginreqmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\bookcreationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\entity\\bookentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -13,29 +35,13 @@
       "RelativeMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|d:\\github\\bookstore-backend\\bookstoreapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\interfaces\\ibookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\interfaces\\iuserrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\services\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\interfaces\\ibookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C6B910A9-1505-4DA5-8B22-F5F1F4FFF077}|..\\ManagerLayer\\ManagerLayer.csproj|d:\\github\\bookstore-backend\\managerlayer\\interfaces\\iusermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\bookcreationreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\registerreqmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -63,9 +69,6 @@
       "RelativeMoniker": "D:0:0:{6B20AEF3-24B0-4804-A893-2EFE11D6F336}|BookstoreAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F3A38AF4-4457-4C33-A14B-43B1EDD136BD}|..\\CommonLayer\\CommonLayer.csproj|d:\\github\\bookstore-backend\\commonlayer\\request model\\loginreqmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{691D49C7-E624-46EA-8548-3A2D710BB03F}|..\\RepoLayer\\RepoLayer.csproj|d:\\github\\bookstore-backend\\repolayer\\repolayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -83,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -91,137 +94,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Controllers\\BookController.cs",
-              "RelativeToolTip": "Controllers\\BookController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAnwCIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T07:11:45.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IBookRepo.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IBookRepo.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Interfaces\\IBookRepo.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IBookRepo.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Interfaces\\IBookRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T07:05:39.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "IBookManager.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IBookManager.cs",
               "RelativeDocumentMoniker": "..\\ManagerLayer\\Interfaces\\IBookManager.cs",
               "ToolTip": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IBookManager.cs",
               "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\IBookManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T07:13:13.81Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "BookManager.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Services\\BookManager.cs",
               "RelativeDocumentMoniker": "..\\ManagerLayer\\Services\\BookManager.cs",
               "ToolTip": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Services\\BookManager.cs",
               "RelativeToolTip": "..\\ManagerLayer\\Services\\BookManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAA2AAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T07:13:42.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserRepo.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IUserRepo.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Interfaces\\IUserRepo.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IUserRepo.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Interfaces\\IUserRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:14:29.998Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAADgvygAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:07:48.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "BookEntity.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\BookEntity.cs",
               "RelativeDocumentMoniker": "..\\RepoLayer\\Entity\\BookEntity.cs",
               "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\BookEntity.cs",
               "RelativeToolTip": "..\\RepoLayer\\Entity\\BookEntity.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAADwvy8AAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:35:47.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T06:35:47.262Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BookServices.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\BookServices.cs",
               "RelativeDocumentMoniker": "..\\RepoLayer\\Services\\BookServices.cs",
               "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\BookServices.cs",
               "RelativeToolTip": "..\\RepoLayer\\Services\\BookServices.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowBcAAAAyAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-30T06:55:16.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserManager.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "RelativeDocumentMoniker": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBAAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:36:22.193Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Services\\UserServices.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\UserServices.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Services\\UserServices.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAjwCIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:26:37.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "BookCreationReq.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\BookCreationReq.cs",
               "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\BookCreationReq.cs",
@@ -233,115 +157,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BookStoreContext.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Context\\BookStoreContext.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Context\\BookStoreContext.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Context\\BookStoreContext.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Context\\BookStoreContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "DocumentIndex": 5,
+              "Title": "IBookRepo.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IBookRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Interfaces\\IBookRepo.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IBookRepo.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Interfaces\\IBookRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:30:37.777Z"
+              "WhenOpened": "2024-03-30T07:05:39.784Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterReqModel.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\RegisterReqModel.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\RegisterReqModel.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\RegisterReqModel.cs",
-              "RelativeToolTip": "..\\CommonLayer\\Request Model\\RegisterReqModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T07:08:15.128Z"
+              "WhenOpened": "2024-03-30T07:11:45.296Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Entity\\UserEntity.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\UserEntity.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Entity\\UserEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "getbyID.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\getbyID.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\getbyID.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\getbyID.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Request Model\\getbyID.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T06:26:56.633Z"
+              "WhenOpened": "2024-04-02T11:06:26.087Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20240328115943_MigrationAlpha.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
-              "RelativeDocumentMoniker": "..\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
-              "RelativeToolTip": "..\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADgvygAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T11:59:43.868Z"
+              "WhenOpened": "2024-03-27T09:07:48.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "send.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Utility\\send.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\Utility\\send.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Utility\\send.cs",
-              "RelativeToolTip": "..\\CommonLayer\\Utility\\send.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCAAAAAJAAAA",
+              "DocumentIndex": 10,
+              "Title": "IUserRepo.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Interfaces\\IUserRepo.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Interfaces\\IUserRepo.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Interfaces\\IUserRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:54:28.848Z"
+              "WhenOpened": "2024-03-27T07:14:29.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "EncryptDecryptClass.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
-              "RelativeToolTip": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwB0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-27T09:57:10.558Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ResetPasswordModel.cs",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
-              "RelativeToolTip": "..\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T11:21:58.461Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CommonLayer.csproj",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj",
-              "RelativeDocumentMoniker": "..\\CommonLayer\\CommonLayer.csproj",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj",
-              "RelativeToolTip": "..\\CommonLayer\\CommonLayer.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T07:05:16.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-27T06:38:46.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 6,
               "Title": "LoginReqModel.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\LoginReqModel.cs",
               "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\LoginReqModel.cs",
@@ -353,7 +232,139 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IUserManager.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IUserManager.cs",
+              "RelativeDocumentMoniker": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\ManagerLayer\\Interfaces\\IUserManager.cs",
+              "RelativeToolTip": "..\\ManagerLayer\\Interfaces\\IUserManager.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:36:22.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Services\\UserServices.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Services\\UserServices.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Services\\UserServices.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAjwCIAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:26:37.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookStoreContext.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Context\\BookStoreContext.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Context\\BookStoreContext.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Context\\BookStoreContext.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Context\\BookStoreContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:30:37.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterReqModel.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\RegisterReqModel.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\RegisterReqModel.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\RegisterReqModel.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Request Model\\RegisterReqModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T07:08:15.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Entity\\UserEntity.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Entity\\UserEntity.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Entity\\UserEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:26:56.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20240328115943_MigrationAlpha.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
+              "RelativeDocumentMoniker": "..\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
+              "RelativeToolTip": "..\\RepoLayer\\Migrations\\20240328115943_MigrationAlpha.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:59:43.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "send.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Utility\\send.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Utility\\send.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Utility\\send.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Utility\\send.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T10:54:28.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EncryptDecryptClass.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Encryption\\EncryptDecryptClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:57:10.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
+              "RelativeToolTip": "..\\CommonLayer\\Request Model\\ResetPasswordModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T11:21:58.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CommonLayer.csproj",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj",
+              "RelativeDocumentMoniker": "..\\CommonLayer\\CommonLayer.csproj",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\CommonLayer\\CommonLayer.csproj",
+              "RelativeToolTip": "..\\CommonLayer\\CommonLayer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-27T07:05:16.207Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-27T06:38:46.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "RepoLayer.csproj",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\RepoLayer\\RepoLayer.csproj",
               "RelativeDocumentMoniker": "..\\RepoLayer\\RepoLayer.csproj",
@@ -365,7 +376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",

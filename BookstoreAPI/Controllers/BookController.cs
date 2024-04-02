@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RepoLayer.Entity;
 using RepoLayer.Interfaces;
+using RepoLayer.Services;
 
 namespace BookstoreAPI.Controllers
 {
@@ -17,10 +18,7 @@ namespace BookstoreAPI.Controllers
         {
             this.bookmanager = bookmanager;
         }
-
-
-
-
+        /*     --------------------------------------------------------------------------------------*/
         [HttpPost]
         [Route("Create")]
         public ActionResult AddBook(BookCreationReq model)
@@ -31,10 +29,32 @@ namespace BookstoreAPI.Controllers
             {
                 return Ok(new BookstoreResponse<BookEntity> { Success = true, Message = "Regestration Successful", Data = tempVar });
             }
-            return BadRequest(new BookstoreResponse<BookEntity> { Success = true, Message = "Regestration Unsuccessful", Data = null });
+            return BadRequest(new BookstoreResponse<BookEntity> { Success = false, Message = "Regestration Unsuccessful", Data = null });
+        }
+        /*     --------------------------------------------------------------------------------------*/
+
+        [HttpPut]
+        [Route("getbyID")]
+        public IActionResult GetBookById(int id)
+        {
+            try
+            {
+                var model = new getbyID { BookId = id };
+                var book = bookmanager.GetByID(model);
+                if (book == null)
+                {
+                    return NotFound(); // Return 404 if book is not found
+                }
+                return Ok(book);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+
         }
 
-
+        /*     --------------------------------------------------------------------------------------*/
 
     }
 }
