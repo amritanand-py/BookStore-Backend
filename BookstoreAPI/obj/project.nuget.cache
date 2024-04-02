@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ymY2moiZw3gTHef3T81BpafFEgb+Xh+fzPNI3E5XBuBafS4Wqbb72l8EISBmlqJ1z+yBRJgdxWYP8LFkLFs0OA==",
+  "dgSpecHash": "2BngLGwdA4l46ZFTZask2Ne/0KTToAx53LDtgyCp0QAR6K7x0wyXvBAuCoIT7sFfVK8KeAHj03TnOpsT/c7mXw==",
   "success": true,
   "projectFilePath": "D:\\Github\\BookStore-Backend\\BookstoreAPI\\BookstoreAPI.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\anand\\.nuget\\packages\\masstransit.extensions.dependencyinjection\\6.2.5\\masstransit.extensions.dependencyinjection.6.2.5.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\masstransit.rabbitmq\\6.2.5\\masstransit.rabbitmq.6.2.5.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.3\\microsoft.aspnetcore.authentication.jwtbearer.8.0.3.nupkg.sha512",
+    "C:\\Users\\anand\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.aspnetcore.diagnostics\\2.2.0\\microsoft.aspnetcore.diagnostics.2.2.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.abstractions\\2.2.0\\microsoft.aspnetcore.diagnostics.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\anand\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.healthchecks\\2.2.0\\microsoft.aspnetcore.diagnostics.healthchecks.2.2.0.nupkg.sha512",

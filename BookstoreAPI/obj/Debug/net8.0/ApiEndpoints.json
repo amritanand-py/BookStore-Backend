@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "BookstoreAPI.Controllers.BookController",
+    "Method": "AddBook",
+    "RelativePath": "api/Book/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CommonLayer.Request_Model.BookCreationReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookstoreAPI.Controllers.UserController",
     "Method": "ForgetPasswordAPI",
     "RelativePath": "api/User/ForgetPassword",
