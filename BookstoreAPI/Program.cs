@@ -18,6 +18,18 @@ var config = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "myAppCors", policy =>
+    {
+        policy.AllowAnyOrigin()
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+    });
+});
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -27,6 +39,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<BookStoreContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("DBConnection")));
 builder.Services.AddTransient<IUserRepo, UserServices>();
 builder.Services.AddTransient<IUserManager, UserManager>();
+builder.Services.AddTransient<IBookRepo, BookServices>();
+builder.Services.AddTransient<IBookManager, BookManager>();
 
 
 
@@ -92,7 +106,10 @@ builder.Services.AddSwaggerGen(options =>
 
 
 
+
+
 var app = builder.Build();
+app.UseCors("myAppCors");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
