@@ -36,7 +36,18 @@ namespace RepoLayer.Services
             return cartItem;
         }
         /*     --------------------------------------------------------------------------------------*/
+        public List<CartEntity> GetCartItems(int userId)
+        {
+            // Get all cart items for the specified user
+            var cartItems = BookStoreContext.CartItems
+                .Where(item => item.UserId == userId)
+                .ToList();
 
+            // You can further modify the results here if needed
+
+            return cartItems;
+        }
+        /*     --------------------------------------------------------------------------------------*/
 
     }
 }

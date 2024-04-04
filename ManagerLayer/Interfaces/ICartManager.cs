@@ -11,5 +11,6 @@ namespace ManagerLayer.Interfaces
     public interface ICartManager
     {
         public CartEntity AddToCart(AddToCartRequestModel request);
+        public List<CartEntity> GetCartItems(int userId);
     }
 }
