@@ -33,6 +33,23 @@ namespace BookstoreAPI.Controllers
             }
         }
         /*     --------------------------------------------------------------------------------------*/
-
+        [HttpGet]
+        [Route("GetCartItems")]
+        public IActionResult GetCartItems(int userId)
+        {
+            try
+            {
+                var cartItems = cartmanager.GetCartItems(userId);
+                if (cartItems == null || !cartItems.Any())
+                {
+                    return NotFound("No cart items found for this user");
+                }
+                return Ok(cartItems);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
+        }
     }
 }

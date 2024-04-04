@@ -18,5 +18,9 @@ namespace ManagerLayer.Services
         {
             return CartManagerObj.AddToCart(request);
         }
+        public List<CartEntity> GetCartItems(int userId)
+        {
+            return CartManagerObj.GetCartItems(userId);
+        }
     }
 }

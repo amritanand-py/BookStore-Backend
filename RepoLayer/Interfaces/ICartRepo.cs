@@ -11,5 +11,6 @@ namespace RepoLayer.Interfaces
     public interface ICartRepo
     {
         public CartEntity AddToCart(AddToCartRequestModel request);
+        public List<CartEntity> GetCartItems(int userId);
     }
 }

@@ -69,6 +69,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookstoreAPI.Controllers.CartController",
+    "Method": "GetCartItems",
+    "RelativePath": "api/Cart/GetCartItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookstoreAPI.Controllers.UserController",
     "Method": "ForgetPasswordAPI",
     "RelativePath": "api/User/ForgetPassword",
