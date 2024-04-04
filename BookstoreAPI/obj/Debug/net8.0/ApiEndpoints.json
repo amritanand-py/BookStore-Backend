@@ -53,6 +53,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "BookstoreAPI.Controllers.CartController",
+    "Method": "AddToCart",
+    "RelativePath": "api/Cart/AddToCart",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CommonLayer.Request_Model.AddToCartRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "BookstoreAPI.Controllers.UserController",
     "Method": "ForgetPasswordAPI",
     "RelativePath": "api/User/ForgetPassword",
